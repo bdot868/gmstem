@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+
+.ctnrprimary {
+  width: 100%; 
+  overflow: hidden; 
+}
+
+.headlabel { 
+ font-size: 250%; 
+ font-weight: bold;
+ font-family: "helvetica neue", helvetica, verdana, "sans serif";
+ color: #355F36; 
+ position: relative;
+ text-align: center;  
+}
+
+#hdlbl{
+  margin-bottom: 2.5em; 
+}
+
+.ctnrpicture{ 
+	float: none;
+	width: 90%;
+	margin: 0 auto; 
+}
+
+.picture{ 
+	float: none;
+	width: 100%;
+}
+
+.sidetext { 
+	  font-size: 1.25em; 
+    font-family: "helvetica neue", helvetica, verdana, "sans serif";
+    line-height: 150%; 
+    position: relative;  
+    top: 1em;
+    width: 90%; 
+    margin: 0 auto;  
+    text-align: justify; 
+
+}
+
+.ctnrsecondary {
+  width: 100%; 
+  overflow: hidden;
+  margin-top: 10%; 
+}
+
+.ctnrpicture2{ 
+	float: none;
+	width: 90%;
+	margin: 0 auto; 
+}
+
+.picture2{ 
+	float: none;
+	width: 100%;
+}
+
+.sidetext2 { 
+	  font-size: 1.25em; 
+    font-family: "helvetica neue", helvetica, verdana, "sans serif";
+    line-height: 150%; 
+    position: relative;  
+    top: 1em;
+    width: 90%;  
+    margin: 0 auto; 
+    text-align: justify; 
+}
+
+.subjectlabel{ 
+	font-size: 125%; 
+    font-weight: bold;
+    color: #B5D825; 
+    text-align: center; 
+}
+
+.ctnrmiddle {
+  width: 100%; 
+  overflow: hidden;
+  margin-top: 10%;
+  text-align: center; 
+}
+
+.picmiddle{
+  width: 90%;
+}
+
+.ctrnpicmiddle{ 
+	width: 100%; 
+}
+ 
+.ctrntextmiddle { 
+	font-size: 1.25em; 
+    font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
+    line-height: 150%; 
+    top: 1em;   
+    width: 100%; 
+ }
+
+.middletext{
+ 	width: 90%; 
+ 	margin: 0 auto;
+  text-align: justify;
+}
+
+.divider{
+ width:100%;
+ background-color:#B5D825 ; 
+ padding-top: 2%;  
+ padding-bottom: 2%; 
+ margin-top: 10%;         
+}
+
+
+#margin{
+	margin-top: 10%;
+}
+
+#btmargin{
+  margin-bottom: 5em; }
+
+/* This style is for desktops and tablets with an min width of 800px */
+@media only screen and (min-width: 800px) {
+
+.ctnrprimary {
+  width: 100%; 
+  overflow: hidden; 
+}
+
+.headlabel { 
+     text-align: center;
+     overflow: hidden;
+}
+
+.ctnrpicture{ 
+	float: right;
+	width: 50%;
+}
+
+.picture{ 
+	float: right;
+	width: 100%;
+}
+
+.sidetext { 
+	font-size: 1.25em; 
+    font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
+    line-height: 150%; 
+    position: relative; 
+    left: 3em; 
+    top: 2.5em;
+    width: 40%;   
+    margin: 0; 
+}
+
+.ctnrsecondary {
+  width: 100%; 
+  overflow: hidden;
+  margin-top: 10%; 
+}
+
+.ctnrpicture2{ 
+	float: left;
+	width: 50%;
+}
+
+.picture2{ 
+	float: left;
+	width: 100%;
+}
+
+.sidetext2 { 
+	font-size: 1.25em; 
+    font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
+    line-height: 150%; 
+    position: relative; 
+    float: right; 
+    right: 3em;
+    top: 2.5em;
+    width: 40%; 
+    margin: 0; 
+}
+
+.subjectlabel{ 
+	font-size: 125%; 
+    font-weight: bold;
+    color: #B5D825; 
+    text-align: left; 
+}
+
+.ctrntextmiddle .subjectlabel{
+  text-align: center; 
+}
+
+.ctnrmiddle {
+  width: 100%; 
+  overflow: hidden;
+  margin-top: 10%;
+  text-align: center; 
+}
+
+.picmiddle{
+  width: 50%;
+}
+
+.ctrnpicmiddle{ 
+	width: 100%; 
+}
+ 
+.ctrntextmiddle { 
+	font-size: 1.25em; 
+    font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
+    line-height: 150%; 
+    top: 2.5em;   
+    width: 100%; 
+ }
+
+.middletext{
+ 	width: 50%; 
+ 	margin: 0 auto;
+    text-align: left;
+}
+
+.divider{
+ width:100%;
+ background-color:#B5D825 ; 
+ padding-top: 2%;  
+ padding-bottom: 2%; 
+ margin-top: 10%;         
+}
+
+
+#margin{
+	margin-top: 10%;
+}
+
+} /* This closing bracket is for desktop media screen */

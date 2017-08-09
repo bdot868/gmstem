@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+
+
+.science1{
+  width: 100%; 
+  height: 750px; 
+  background: -webkit-linear-gradient(top, #4f1b74, #af4fc1);
+  background: linear-gradient(to bottom, #4f1b74, #af4fc1);
+   
+}
+
+.text-container{
+  position: relative;
+  top: 30%; 
+}
+
+.headline{
+  font-family: "helvetica neue", helvetica, verdana, "sans serif";
+  color: #fff; 
+  text-align: center;
+  font-size: 2em; 
+  margin: 0px; 
+  font-weight: 500; 
+  margin-bottom: .5em; 
+}
+
+.subline{
+  font-family: "helvetica neue", helvetica, verdana, "sans serif";
+  color: #fff; 
+  text-align: center;
+  font-size: 30px; 
+  margin: 0px; 
+  font-weight: 300; 
+  color: #B5D825; 
+}
+
+.subline-text{
+  width: 95%; 
+  font-family: "helvetica neue", helvetica, verdana, "sans serif";
+  color: #fff; 
+  text-align: center;
+  font-size: 18px; 
+  margin: 0px; 
+  font-weight: 200; 
+  color: #fff; 
+  margin: 0 auto; 
+  line-height: 1.50em; 
+}
+
+.image1{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 250px; 
+  top: 40%; 
+}
+
+.image2{
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  width: 250px;  
+  overflow: hidden;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.image3{
+  width: 300px; 
+}
+
+.robot{
+  width: 100px;
+  top: 83.5%; 
+}
+
+.code{
+  width: 300px; 
+}
+
+.science2{
+  position: relative;
+  width: 100%; 
+  height: 750px; 
+  background: -webkit-linear-gradient(top, #355F36 0%, #437844 40%, #67B869 100%);
+  background: linear-gradient(to bottom, #355F36 0%, #437844 40%, #67B869 100%);
+  overflow: hidden;
+}
+
+.science3{
+  position: relative;
+  width: 100%; 
+  height: 750px; 
+  background: -webkit-linear-gradient(top, #61727c 0%, #708089 40%, #acb7bf 100%);
+  background: linear-gradient(to bottom, #61727c 0%, #708089 40%, #acb7bf 100%);
+}
+
+.science4{
+  position: relative;
+  width: 100%; 
+  height: 750px; 
+  background: -webkit-linear-gradient(top, #457fca, #92E8FF);
+  background: linear-gradient(to bottom, #457fca, #92E8FF);
+}
+
+.science5{
+  position: relative;
+  width: 100%; 
+  height: 750px; 
+  background: -webkit-linear-gradient(top, #F4D03F, #F9E79F);
+  background: linear-gradient(to bottom, #F4D03F, #F9E79F);
+}
+
+.science6{
+  position: relative;
+  width: 100%; 
+  height: 750px; 
+  background: -webkit-linear-gradient(top, #437d8d 0%, #548f9f 40%, #98d9e9 100%);
+  background: linear-gradient(#437d8d, #548f9f 40%, #98d9e9);
+}
+
+.science7{
+  position: relative;
+  width: 100%; 
+  height: 750px;  
+  background: -webkit-linear-gradient(top, #a85250 0%, #b96560 40%, #fdb1a0 100%);
+  background: linear-gradient(to bottom, #a85250 0%, #b96560 40%, #fdb1a0 100%);
+}
+
+.science8{
+  position: relative;
+  width: 100%; 
+  height: 750px;  
+  background-color: #fff; 
+}
+
+.marginal-headline{
+  color: #333; 
+  margin-bottom: 0em;  
+
+}
+
+.marginal-subline{
+  color: #2982D5; 
+  font-size: 35px; 
+  font-weight: 300; 
+  margin: 0;
+
+}
+
+.marginal-position{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+
+
+
+ 
+
+@media only screen and (min-width: 450px) {
+
+
+
+
+/* This style is for desktops and tablets with an min width of 800px */
+@media only screen and (min-width: 768px) {
+
+
+
+} /* This closing bracket is for desktop media screen */
+
+
+
+@media only screen and (min-width: 1024px){
+ 
+.subline-text{
+  width: 60%; 
+  line-height: 1.50em;
+  font-size: 20px; 
+}
+
+.headline{
+  font-size: 2.5em; 
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+

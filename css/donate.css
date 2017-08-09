@@ -1,0 +1,241 @@
+
+
+.primary-image-container{
+  position: relative;
+  width: 100%; 
+  height: 750px; 
+  background: -webkit-linear-gradient(top, #000, #ABB2B9);
+  background: linear-gradient(to bottom, #000, #ABB2B9);
+   
+}
+
+.image1{
+  position: absolute;
+  width: 250px; 
+  left: 0;
+  bottom: 0;
+  right: 0; 
+  margin: auto;
+}
+
+
+
+.ctnr{
+  margin: 0 auto; 
+  width: 90%; 
+  display: block;
+  font-family: "helvetica neue", helvetica, verdana, "sans serif";
+}
+
+/* Provides the color and position for the primary image overlay */
+.overlayer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 98.3%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+/* Text properties for the text overlay on primary image */
+.headlbl{
+  color: #ffffff;
+  font-family: "helvetica neue", helvetica, verdana, "sans serif";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  z-index: 2;
+  white-space: nowrap;
+}
+
+/* Size of the text for text overlay on primary image*/
+#headtxt{
+  font-size: 32px; 
+}
+
+/* Text properties for subtext in primary image */
+#spantxt{
+  font-size: 12px; 
+  color: #B5D825; 
+}
+
+#hdlbl {
+  color: #355F36;
+  text-align: center; 
+  margin: 2em auto; 
+}
+
+.text { 
+  font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
+  text-align: left;  
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+  width: 90%; 
+  margin: 0 auto;
+  font-weight: 200; 
+} 
+
+/* Margin for the quotes between primary image and video*/
+.txtctnr {
+  width: 100%;
+  margin: 5em auto;
+  display: block;
+  overflow: hidden;
+}
+
+/* "Great Minds" display in green in scndquote */ 
+.gm {
+  color: #B5D825;
+  font-weight: bold;  
+}
+
+.ss{
+  color: #355F36; 
+}
+
+h2 {
+  color: #B5D825; 
+  margin: 2em auto;
+}
+
+h3 {
+  color: #355F36; 
+}
+
+.form-control { 
+  width: 95%; 
+  border: 1px solid gray;
+  border-radius: .2em; 
+  font-size: 1.25em;
+  font-family: "helvetica neue", helvetica, verdana, "sans serif";    
+  font-weight: bold;
+  padding: .5em 0; 
+  padding-left: .5em; 
+  }
+
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #B5D825; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+
+/* Decorations, margin, and border for subscribe button*/
+#btnn {
+  color: #FFFFFF; 
+  background-color: #2982D5;  
+  white-space: nowrap;
+  text-align: center; 
+  padding: .6em 0; 
+  font-size: 1.25em; 
+  font-weight: bold;
+  font-family: "helvetica neue", helvetica, verdana, "sans serif";
+  border-radius: .2em; 
+  width: 95%;
+  margin-top: 4em; 
+  margin-bottom: 4em;
+}
+
+#btnn:hover { 
+  opacity: .7;
+  transition: 0.3s ease-in-out;
+}
+
+/* Alignment for donate button*/
+.mdln{
+  display: block;
+  text-align: center; 
+  margin: 1em auto;   
+}
+
+/* This style is for desktops with an min width of 550px */
+@media only screen and (min-width: 550px) {
+/* Size of the text for overlay on primary image */
+#headtxt{
+  font-size: 45px; 
+}
+
+/* Control the text under headtxt */
+#spantxt{
+  font-size: 15px; 
+}
+
+.text{
+  font-size: 1.25em; 
+}
+
+#btnn {
+  width: 50%;
+}
+
+} 
+
+@media only screen and (min-width: 800px) {
+
+/* Size of the text for overlay on primary image */
+#headtxt{
+  font-size: 70px; 
+}
+
+/* Control the text under headtxt */
+#spantxt{
+  font-size: 20px; 
+}
+
+/* Text styling and paragraph alignment for quote*/
+.text { 
+  text-align: left;  
+  font-size: 200%;
+  font-weight: 200;
+  color: #000000;
+  width: 80%; 
+  margin: 0 auto;
+      } 
+
+/* Takes out top spacing and margins for secondary quote */
+.txtctnr {
+  width: 100%;
+  margin: 10em auto;
+  display: block;
+  margin-bottom: 3em; 
+}
+
+
+
+#btnn {
+  width: 50%;
+}
+
+.aso{
+width: 100%; 
+display: inline-block;
+background-color: ;
+}
+
+.col{
+  float: left;
+  width: 45%;
+ }
+
+.cold{
+width: 45%;
+}
+
+.mgn {
+  margin-left: 2em;
+}
+
+.overlayer{
+  height: 99.3%; 
+  overflow: hidden;
+}
+
+

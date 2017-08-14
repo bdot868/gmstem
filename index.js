@@ -67,7 +67,7 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
-// app.use('/', userRoutes)
+app.use('/', userRoutes)
 
 
 app.listen(port, (err) => {

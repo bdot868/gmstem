@@ -17,7 +17,149 @@
   <body>
 
     <div class="container-fluid">
+      <a href="/"><img id="logo" alt="Great Minds STEM Society Logo" src="images/newlogo.png"></a>
+
+
+
+      <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <div class="overlay-content desktopnav">
+        <a class="links" href="/" id="home">Home</a>
+        <a class="links" href="/about">About</a>
+        <a class="links" href="/programs">Programs</a>
+        <a class="links" href="/spotlight">Spotlight</a>
+        <a class="links" href="/contact">Contact</a>
+        <a class="links" href="/donate" id="donate">Donate</a>
+        </div>
+
+      </div>
+
+      <div class="package">
+
+      </div>
       <%- body %>
+
+      <div class="footer">
+
+      <div class="mobilefooter">
+
+          <form class="emailfrm">
+          <input placeholder= "Stay Connected! Enter your email" type="text" class="mdalign mobileinput"/>
+          <button name="submit" type="submit" value="Subscribe" id="submit" class="mdalign">Subscribe</button>
+          </form>
+
+            <a href="tel:3235996616">
+                <div class="flinks">
+                  <img id="fone" alt="Phone icon" src="images/fone.svg">
+                  <h1 class="ffont">323-599-6616</h1>
+                </div>
+             </a>
+            <div class="mrgn">
+               <a href="/donate">
+                  <div class="split mlft">
+                  <h1 class="ffont">Donate</h1>
+                  </div>
+               </a>
+               <a href="/contact">
+                  <div class="split mrght">
+                  <h1 class="ffont">Contact Us</h1>
+                  </div>
+               </a>
+            </div>
+
+            <div class="mrgn">
+                <a href="/about">
+                  <div class="split mlft">
+                  <h1 class="ffont">About Us</h1>
+                  </div>
+                </a>
+
+                <a href="/programs">
+                  <div class="split mrght">
+                  <h1 class="ffont">Programs</h1>
+                  </div>
+                </a>
+            </div>
+
+            <a href="http://www.facebook.com/gmstem"><img class="icon" alt="facebook icon" src="images/fb.svg"></a>
+            <a href="https://www.instagram.com/gm_stem"><img class="icon" alt="instagram icon" src="images/ig.svg"></a>
+            <a href="https://twitter.com/gmstem"><img class="icon" alt="twitter icon" src="images/tt.svg"></a>
+            <a href="https://www.youtube.com/channel/UCErB3s0QQSRwoRzLqTm79JQ"><img class="icon" alt="youtube icon" src="images/youtube.svg"></a>
+            <a href="https://www.linkedin.com/company-beta/17979431/"><img class="icon" alt="linkedin icon" src="images/linkedin.svg"></a>
+
+         </div>
+
+         <div class="desktopfooter">
+
+          <form class="emailfrm">
+          <input placeholder= "Stay Connected! Enter your email" type="text" class="mdalign desktpinput"/>
+          <input type="submit" value="Subscribe" id="submit" class="mdalign"/>
+          </form>
+
+         <table>
+            <tr>
+              <th><a href="/">GMSS</a></th>
+              <th><a href="/programs">Programs</a></th>
+              <th><a href="https://www.instagram.com/gm_stem">Connect</a></th>
+              <th><a href="contact.html">Contact</a></th>
+            </tr>
+            <tr>
+              <td><a href="/about">About Us</a></td>
+              <td><a href="/programs">Science</a></td>
+              <td><a href="https://www.instagram.com/gm_stem">Instagram</a></td>
+              <td>PO Box 1234</td>
+            </tr>
+            <tr>
+              <td><a href="subscribe.html">Subscribe</a></td>
+              <td><a href="/programs">Technology</a></td>
+              <td><a href="http://www.facebook.com/gmstem">Facebook</a></td>
+              <td>Los Angeles, California</td>
+            </tr>
+            <tr>
+              <td><a href="/donate">Donate</a></td>
+              <td><a href="/programs">Engineering</a></td>
+              <td><a href="https://twitter.com/gmstem">Twitter</a></td>
+              <td><a href="tel:">(323) 599-6616</a></td>
+            </tr>
+            <tr>
+              <td><a href="/signup">Sign Up</a></td>
+              <td><a href="/programs">Math</a></td>
+              <td>Youtube</td>
+              <td><a href="mailto:info@gmstem.org">info@gmstem.org</a></td>
+            </tr>
+         </table>
+        </div>
+
+
+
+         <div class="copyrights" id="copyrights">
+            <p> Great Minds STEM Society is a 501(c)(3) organization </p>
+            <p> © 2015 Great Minds STEM Society. All rights reserved. </p>
+         </div>
+      </div>
+
+          <script>
+
+          /* Open when someone clicks on the span element */
+      function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+      }
+
+      /* Close when someone clicks on the "x" symbol inside the overlay */
+      function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+      }
+
+      $(function(){
+        var $desktopnav = $('.desktopnav').clone();
+        $('.package').html($desktopnav);
+      });
+
+          </script>
+
     </div>
   </body>
 </html>

@@ -1,0 +1,126 @@
+<div class="page-header">
+
+
+
+<h1>Account Profile</h1>
+
+</div>
+<div class="container">
+
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="well">
+
+
+          <% if (currentUser.local.email != null) { %>
+            <div class="right-info">
+            <h1><%= currentUser.local.firstname %></h1>
+            <img src="https://avatars.io/gravatar/<%= currentUser.local.email %>/140" class="img-circle"><br>
+
+          </div>
+          <div class="left-info">
+            <article class="user-info">
+              <div class="user-info">
+                <strong>First Name</strong>:<br> <span><%= currentUser.local.firstname %></span><br>
+              </div>
+              <div class="user-info">
+                <strong>Last Name</strong>:<br> <span><%= currentUser.local.lastname %></span><br>
+              </div>
+              <div class="user-info">
+                <strong>email</strong>:<br> <span><%= currentUser.local.email %></span><br>
+              </div>
+            </article>
+          </div>
+          <% } %>
+
+
+        </div>
+      </div>
+
+
+
+      </div>
+</div>
+
+
+
+<!-- <% if(currentUser.local.isAdmin ) { %>
+  <div type="button" class="btn btn-success">
+    <a href="/users">All users</a>
+  </div>
+<% } %> -->
+
+<div type="button" class="btn btn-warning">
+  <a href="/profile/<%=currentUser._id%>/edit">Edit Profile</a>
+</div>
+
+
+  <br>
+
+  <div class="modal-footer">
+     <form class="delete-btn" action="/profile/<%=currentUser.id%>?_method=DELETE" method="POST">
+       <button type="submit" class="btn btn-danger">Delete Account</button>
+     </form>
+   </div>
+ </div>
+
+
+
+ <style media="screen">
+   .user-lists {
+     width: 400px;
+     height: 60px;
+     border: 1px solid grey;
+     border-radius: 4px;
+     margin: 20px;
+     text-align: center;
+     background-color: white;
+   }
+   .user-lists:hover {
+    box-shadow: 10px 10px 5px #888888;
+    transform: scale(1.1)
+}
+   .btn {
+     margin-bottom: 20px;
+   }
+   .listss {
+     padding-left: 200px;
+   }
+   .container-1 {
+     background-color: #B7EBA4
+   }
+   .btn-success:hover {
+     transform: perspective(1px) translateZ(0)
+     box-shadow: 0 0 1px transparent;
+   }
+   .right-info {
+     display: inline-block;
+     width: 250px;
+     text-align: center;
+   }
+   .left-info {
+     display: inline-block;
+     float: right;
+     height: 215px;
+   }
+   .user-info {
+     font-size: 16px;
+     height: 60px;
+     border-bottom: 1px solid #CFD1D1;
+   }
+   .well {
+     margin-top: 25px;
+     height: 280px;
+     box-shadow: 0 0 1px transparent;
+   }
+   footer {
+     height: 40px;
+     background: #413347;
+   }
+
+ </style>
+
+ <footer>
+
+ </footer>

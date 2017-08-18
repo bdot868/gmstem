@@ -67,7 +67,32 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
+app.get('/about', (req, res) => {
+  res.render('about')
+})
+
+app.get('/programs', (req, res) => {
+  res.render('programs')
+})
+
+app.get('/spotlight', (req, res) => {
+  res.render('spotlight')
+})
+
+app.get('/contact', (req, res) => {
+  res.render('contact')
+})
+
+app.get('/donate', (req, res) => {
+  res.render('donate')
+})
+
+app.get('/profile', (req, res) => {
+  res.render('profile')
+})
+
 app.use('/', userRoutes)
+
 
 
 app.listen(port, (err) => {

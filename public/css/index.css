@@ -7,20 +7,27 @@
 
 body{
   width: 100%;
-  margin: 0 auto; 
+  margin: 0 auto;
+}
+
+.login, .logout {
+    text-align: right;
+    padding: 10px;
+    margin: 0 auto;
+    color: white;
 }
 
 .image1{
   position: relative;
   display: block;
   margin: 0 auto;
-  width: 300px; 
-  top: 40%; 
+  width: 300px;
+  top: 40%;
 }
 
 
 /* Container and style for responsive video frame */
-#video{ 
+#video{
   width:100%;
   position:relative;
   padding-bottom:60%;  /*45.25*/
@@ -35,7 +42,7 @@ body{
   top:0;
   left:0;
   width:100%;
-  height:100%;    
+  height:100%;
 }
 
 .mobilelinks{
@@ -44,19 +51,19 @@ body{
 
 
 /* Style formats the image links into four equally distributed boxes */
-.imagelink1 { 
-    width: 49.50%; 
+.imagelink1 {
+    width: 49.50%;
     height: auto;
     margin-right: .50%;
-    float: left; 
+    float: left;
     position: relative;
     overflow: hidden;
 }
 
-/* Sets margin right to 0 for the fourth image link enabling it to 
+/* Sets margin right to 0 for the fourth image link enabling it to
    fill the width of the page without spaces */
 #imagelink2 {
-  margin-right: 0; 
+  margin-right: 0;
 }
 
 .imagelink1 :hover{
@@ -66,7 +73,7 @@ body{
 /* Allows the images to be responsive within the image links*/
 .image {
   width: 100%;
-  min-height: 175px; 
+  min-height: 175px;
 }
 
 /* Sets text properties for each image link label */
@@ -78,18 +85,18 @@ body{
     padding: 8px 10px;
     color: white;
     margin: 0;
-    font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
-    font-size: 100%; 
-    width: 95%; 
+    font-family: "helvetica neue", helvetica, verdana, "sans serif";
+    font-size: 100%;
+    width: 95%;
     text-align: center;
-    font-weight: bold;   
+    font-weight: bold;
    }
 
 
 /* Container for t-shirt image applies position and width */
 .cntr-shirt{
 position: relative;
-width: 100%; 
+width: 100%;
 overflow: hidden;
 }
 
@@ -106,58 +113,58 @@ overflow: hidden;
   white-space: nowrap;
   overflow: hidden;
   text-align: center;
-  font-size: 50%; 
+  font-size: 50%;
 }
 
 /* Applies dark green to designated elements */
 .dark-green{
-  color: #355F36; 
+  color: #355F36;
 }
 
 /* Applies bright green to designated elements */
 .green{
-  color: #B5D825; 
+  color: #B5D825;
 }
 
 /* Applies white to designated elements */
 .white{
-  color: #fff; 
+  color: #fff;
 }
 
 /* Applies black to designated elements */
 .black{
-  color: #566573; 
+  color: #566573;
 }
 
 /* Applies responsiveness to the shirt image */
 .shirt {
-  width: 100%; 
+  width: 100%;
 }
 
 /* takes out margins on H-elements for t-shirt image*/
 .headers-margins{
-  margin: 0; 
+  margin: 0;
 }
 
 /* Border for "Original Edition" in t-shirt container */
 .border{
-  border: 1px solid #fff; 
-  border-radius: .4em; 
-  padding: .2em; 
-  width: 50%; 
-  margin: 0 auto; 
-  margin-bottom: 1em; 
-  font-weight: 400; 
+  border: 1px solid #fff;
+  border-radius: .4em;
+  padding: .2em;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  font-weight: 400;
 }
 
 /* Border fill green for "Purchase" in t-shirt container */
-.purchase-border{ 
-background-color: #355F36;  
-padding: .5em; 
-width: 50%; 
-margin: 0 auto; 
+.purchase-border{
+background-color: #355F36;
+padding: .5em;
+width: 50%;
+margin: 0 auto;
 margin-top: 1em;
-border-radius: .2em; 
+border-radius: .2em;
 }
 
 /* Provides the gray background color, controls the width and padding of container */
@@ -165,47 +172,47 @@ border-radius: .2em;
   position: relative;
   display: inline-block;
   background-color: #CFD8DC;
-  width: 100%; 
-  padding-bottom: 0em; 
+  width: 100%;
+  padding-bottom: 0em;
 }
 
 /* Provides width and margin for stem left and stem right individual group  */
 .stem-container{
-  width: 100%; 
-  margin-top: 0em; 
+  width: 100%;
+  margin-top: 0em;
   display: inline-block;
 }
 
 /* Provides full width on mobile devices, centers elements, and takes out border radius */
 .stem-left1, .stem-left2, .stem-left3{
-  width: 100%; 
-  height: 500px; 
-  border-radius: 0px 0px 0px 0px;  
-  float: none; 
-  margin-top: .5em; 
+  width: 100%;
+  height: 500px;
+  border-radius: 0px 0px 0px 0px;
+  float: none;
+  margin-top: .5em;
 }
 
-/* Fills the img-container with image and gives it a rounded border */ 
+/* Fills the img-container with image and gives it a rounded border */
 .stem-image{
-  width: 100%; 
-  height: 100%; 
+  width: 100%;
+  height: 100%;
   border-radius: 0px 0px 0px 0px;
 }
 
-/* Fills the second img-container with image and gives it a rounded border */ 
-.stem-image1{ 
-  width: 100%; 
+/* Fills the second img-container with image and gives it a rounded border */
+.stem-image1{
+  width: 100%;
   height: 100%;
   border-radius: 0px 0px 0px 0px;
 }
 
 /* Provides full width on mobile devices, centers elements, and takes out border radius */
 .stem-right1, .stem-right2, .stem-right3 {
-  width: 100%; 
-  height: 500px; 
+  width: 100%;
+  height: 500px;
   border-radius: 0px 0px 0px 0px;
   float: none;
-  margin-top: .5em; 
+  margin-top: .5em;
 }
 
 /* Provides color gradient to container */
@@ -215,7 +222,7 @@ border-radius: .2em;
 }
 
 /* Provides color gradient to container */
-.stem-left2{ 
+.stem-left2{
   background: -webkit-linear-gradient(top, #816393 0%, #9171a0 40%, #cfa9d4 100%);
   background: linear-gradient(to bottom, #816393 0%, #9171a0 40%, #cfa9d4 100%);
 }
@@ -229,16 +236,16 @@ border-radius: .2em;
 /* Provides font style, color, center alignment, and padding to content within stem container */
 .content-container{
   font-family: "helvetica neue", helvetica, verdana, "sans serif";
-  color: #fff; 
+  color: #fff;
   text-align: center;
-  padding: 2em; 
+  padding: 2em;
 }
 
 /* Aligns text left, and provides size, weight, and line height */
 .text-box{
-  text-align: left; 
-  font-size: 20px; 
-  font-weight: 200; 
+  text-align: left;
+  font-size: 20px;
+  font-weight: 200;
   line-height: 150%;
 }
 
@@ -253,16 +260,16 @@ background: linear-gradient(to bottom, #305278 0%, #3d6087 40%, #7198c4 100%)  *
 /* Style for copy rights content below footer */
 .copyrights {
   width: 80%;
-  border-top: .5px solid #FFFFFF; 
-  margin: 0 auto; 
+  border-top: .5px solid #FFFFFF;
+  margin: 0 auto;
   margin-top: 2%;
 }
 
 #copyrights {
- color: #FFFFFF; 
+ color: #FFFFFF;
  font-size: 75%;
- font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
- margin-top: 1em; 
+ font-family: "helvetica neue", helvetica, verdana, "sans serif";
+ margin-top: 1em;
 }
 
 /* Does not display image of person and imagelinks above it */
@@ -282,14 +289,14 @@ background: linear-gradient(to bottom, #305278 0%, #3d6087 40%, #7198c4 100%)  *
 }
 
 
-/* Displays image links in desktop and tablet view */ 
+/* Displays image links in desktop and tablet view */
 .imagelink {
   display: none;
 }
 
 .desktopfooter{
-  display: inline; 
-  overflow: hidden; 
+  display: inline;
+  overflow: hidden;
 }
 
 #video{
@@ -299,43 +306,43 @@ background: linear-gradient(to bottom, #305278 0%, #3d6087 40%, #7198c4 100%)  *
 
 /* Provides width and margin for stem left and stem right individual group  */
 .stem-container{
-  width: 100%; 
-  margin-top: 3em; 
+  width: 100%;
+  margin-top: 3em;
   display: inline-block;
 }
 
 .primary-stem-container{
-  padding-bottom: 3em; 
+  padding-bottom: 3em;
   background-color: #CFD8DC;
 }
 
 /* Provides full width on mobile devices, centers elements, and takes out border radius */
 .stem-left1, .stem-left2, .stem-left3{
-  width: 48%;  
-  border-radius: 0px 25px 25px 0px;  
-  float: left; 
-  margin-top: 0em; 
-  height: 500px; 
+  width: 48%;
+  border-radius: 0px 25px 25px 0px;
+  float: left;
+  margin-top: 0em;
+  height: 500px;
 }
 
 /* Provides full width on mobile devices, centers elements, and takes out border radius */
 .stem-right1, .stem-right2, .stem-right3 {
-  width: 48%; 
+  width: 48%;
   border-radius: 25px 0px 0px 25px;
   float: right;
-  margin-top: 0em; 
-  height: 500px; 
+  margin-top: 0em;
+  height: 500px;
 }
 
-/* Fills the img-container with image and gives it a rounded border */ 
+/* Fills the img-container with image and gives it a rounded border */
 .stem-image{
-  width: 100%; 
+  width: 100%;
   border-radius: 0px 25px 25px 0px;
 }
 
-/* Fills the second img-container with image and gives it a rounded border */ 
-.stem-image1{ 
-  width: 100%; 
+/* Fills the second img-container with image and gives it a rounded border */
+.stem-image1{
+  width: 100%;
   border-radius: 25px 0px 0px 25px;
 }
 
@@ -347,11 +354,11 @@ background: linear-gradient(to bottom, #305278 0%, #3d6087 40%, #7198c4 100%)  *
 
 
 
-/* Displays image links in desktop and tablet view */ 
+/* Displays image links in desktop and tablet view */
 .imagelink {
   display: inline-block;
   width: 100%;
-}  
+}
 
 .mobilelinks, .mobile-shirt{
   display: none;
@@ -362,29 +369,29 @@ background: linear-gradient(to bottom, #305278 0%, #3d6087 40%, #7198c4 100%)  *
 
 /* Provides full width on mobile devices, centers elements, and takes out border radius */
 .stem-left1, .stem-left2, .stem-left3{
-  height: 600px; 
+  height: 600px;
 }
 
 /* Provides full width on mobile devices, centers elements, and takes out border radius */
 .stem-right1, .stem-right2, .stem-right3 {
-  height: 600px; 
+  height: 600px;
 }
 
 
 /* Style formats the image links into four equally distributed boxes */
-.imagelink1 { 
-    width: 24.75%; 
+.imagelink1 {
+    width: 24.75%;
     height: auto;
     margin-right: .33%;
-    float: left; 
+    float: left;
     position: relative;
     overflow: hidden;
 }
 
-/* Sets margin right to 0 for the fourth image link enabling it to 
+/* Sets margin right to 0 for the fourth image link enabling it to
    fill the width of the page without spaces */
 #imagelink2 {
-  margin-right: 0; 
+  margin-right: 0;
 }
 
 .imagelink1 :hover{
@@ -405,11 +412,11 @@ background: linear-gradient(to bottom, #305278 0%, #3d6087 40%, #7198c4 100%)  *
     padding: 10px 8px;
     color: white;
     margin: 0;
-    font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
-    font-size: 150%; 
-    width: 95%; 
+    font-family: "helvetica neue", helvetica, verdana, "sans serif";
+    font-size: 150%;
+    width: 95%;
     text-align: center;
-    font-weight: bold;   
+    font-weight: bold;
    }
 
 

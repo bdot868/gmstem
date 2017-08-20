@@ -14,6 +14,14 @@ module.exports = {
   show: (req, res) => {
 
   },
+  create: (req, res) => {
+    console.log('hey you')
+    console.log(req.body)
+    var newSubscriber = new User(req.body)
+    newSubscriber.email = req.body.email
+    console.log(newSubscriber.newsletter)
+    // newSubscriber.save()
+  },
   edit: (req, res) => {
     User.findById(req.params.id, (err, user) => {
       res.render('users/edit', {user: user})

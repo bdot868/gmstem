@@ -47,7 +47,7 @@
       <div class="mobilefooter">
 
           <form class="emailfrm">
-          <input placeholder= "Stay Connected! Enter your email" type="text" class="mdalign mobileinput"/>
+          <input placeholder= "Stay Connected! Enter your email" type="text" class="mdalign mobileinput" id="subscribe"/>
           <button name="submit" type="submit" value="Subscribe" id="submit" class="mdalign">Subscribe</button>
           </form>
 
@@ -94,9 +94,10 @@
 
          <div class="desktopfooter">
 
-          <form class="emailfrm">
-          <input placeholder= "Stay Connected! Enter your email" type="text" class="mdalign desktpinput"/>
-          <input type="submit" value="Subscribe" id="submit" class="mdalign"/>
+          <form class="emailfrm" action="/subscribe" method="post">
+            <!-- <label>Email</label> -->
+          <input placeholder= "Stay Connected! Enter your email" type="text" class="mdalign desktpinput" name="email"/>
+          <button type="submit" id="submit" class="mdalign">Submit</button>
           </form>
 
          <table>
@@ -141,7 +142,8 @@
          </div>
       </div>
 
-          <script>
+      <script>
+
 
           /* Open when someone clicks on the span element */
       function openNav() {
@@ -157,6 +159,9 @@
         var $desktopnav = $('.desktopnav').clone();
         $('.package').html($desktopnav);
       });
+
+
+
 
           </script>
 

@@ -16,6 +16,7 @@ const
   methodOverride = require('method-override'),
   passportConfig = require('./config/passport.js'),
   userRoutes = require('./routes/users.js')
+  newsletterRoutes = require('./routes/subscribe.js')
 
 //environment port
   port = process.env.PORT || 3000,
@@ -92,6 +93,7 @@ app.get('/profile', (req, res) => {
 })
 
 app.use('/', userRoutes)
+app.use('/', newsletterRoutes)
 
 
 

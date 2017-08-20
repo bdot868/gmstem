@@ -36,6 +36,7 @@ const
 
     userRouter.route('/users')
       .get(usersController.users)
+      .post(usersController.create)
 
   function isLoggedIn(req, res, next) {
     if(req.isAuthenticated()) return next()

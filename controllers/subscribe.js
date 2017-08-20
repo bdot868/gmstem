@@ -9,8 +9,7 @@ const
       })
     },
     create: (req, res) => {
-      console.log('hey girl')
-      console.log(req.body)
+
       var newSubscriber = new Newsletter(req.body)
       newSubscriber.email = req.body.email
       console.log(newSubscriber)
@@ -18,7 +17,9 @@ const
         if(err){
           console.log(err)
         } else {
+          console.log({success: true, message: "Successfully subscribed!!!"})
             res.redirect('/')
+
         }
       })
     }

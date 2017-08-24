@@ -6,30 +6,30 @@
 /* Logo width and padding */
 #logo {
   min-width: 13em;
-  width:30%; 
+  width:30%;
   padding-left: 1em;
   padding-top: 1em;
-  padding-bottom: 1em; 
-}  
+  padding-bottom: 1em;
+}
 
 
-/* Style centers the page and sets the element width */ 
+/* Style centers the page and sets the element width */
 body {
   margin: 0 auto;
-  width: 100%; 
+  width: 100%;
 }
 
 .hamburger {
     color: #455A64;
-    margin-top: .7em; 
-    margin-right: .7em; 
-    float: right; 
-    font-size: 1.75em; 
+    margin-top: .7em;
+    margin-right: .7em;
+    float: right;
+    font-size: 1.75em;
 }
 
 /* The Overlay (background) */
 .overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
     height: 100%;
     width: 0;
     position: fixed; /* Stay in place */
@@ -56,13 +56,17 @@ body {
     padding: .5em;
     text-decoration: none;
     font-size: 36px;
-    font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
+    font-family: "helvetica neue", helvetica, verdana, "sans serif";
     color: #fff;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
-    background-color: #B5D825; 
-    margin: .5em 1em;  
+    background-color: #B5D825;
+    margin: .5em 1em;
     border-radius: 25px 25px 25px 25px;
+}
+
+.overlay .links {
+  text-decoration: none;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -76,33 +80,33 @@ body {
     top: 0px;
     right: 0px;
     font-size: 40px;
-    background-color: transparent; 
-    color: #333; 
+    background-color: transparent;
+    color: #333;
     padding: 0em;
 }
 
 .icon{
-  width: 12%; 
-  margin: .5em; 
-  margin-top: 2em; 
+  width: 12%;
+  margin: .5em;
+  margin-top: 2em;
 }
 
 .package{
   display: none;
 }
 
-#donate{  
+#donate{
   background-color: #2982D5;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 
 
 .primary-image-container{
   position: relative;
-  width: 100%; 
-  height: 750px; 
-   
+  width: 100%;
+  height: 750px;
+
 }
 
 .green-bkg{
@@ -112,18 +116,18 @@ body {
 
 /* Applies white to designated elements */
 .white-dot{
-  color: #fff; 
-  
+  color: #fff;
+
 }
 
 .primary-image{
   position: absolute;
   display: block;
   margin: 0 auto;
-  width: 100%; 
-  height: 100%; 
-  top: 0%; 
-  z-index: 0; 
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  z-index: 0;
 }
 
 .text-container{
@@ -132,27 +136,27 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  z-index: 1; 
+  z-index: 1;
   text-align: center;
-  width: 90%; 
+  width: 90%;
 }
 
 .headline{
   font-family: "helvetica neue", helvetica, verdana, "sans serif";
-  color: #fff; 
-  font-size: 2em; 
-  margin: 0px; 
-  font-weight: 500; 
-  margin-bottom: .25em; 
+  color: #fff;
+  font-size: 2em;
+  margin: 0px;
+  font-weight: 500;
+  margin-bottom: .25em;
 }
 
 .subline{
   font-family: "helvetica neue", helvetica, verdana, "sans serif";
-  color: #fff; 
-  font-size: 30px; 
-  margin: 0px; 
-  font-weight: 300; 
-  color: #B5D825; 
+  color: #fff;
+  font-size: 30px;
+  margin: 0px;
+  font-weight: 300;
+  color: #B5D825;
 }
 
 .marginal-position{
@@ -160,13 +164,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  width: 90%; 
+  width: 90%;
 }
 
 .marginal-subline{
-  color: #2982D5; 
-  font-size: 25px; 
-  font-weight: 300; 
+  color: #2982D5;
+  font-size: 25px;
+  font-weight: 300;
   font-family: "helvetica neue", helvetica, verdana, "sans serif";
 
 }
@@ -184,12 +188,12 @@ body {
   position: relative;
   width: 100%;
   display: inline-block;
-  
+
 }
 
-/* This style controls the size and width of the primary image */ 
-.primaryimage { 
-   width: 100%;  
+/* This style controls the size and width of the primary image */
+.primaryimage {
+   width: 100%;
    min-height: 350px;
 }
 
@@ -200,22 +204,22 @@ body {
 
 /* Font style for footer buttons on mobile device*/
 .ffont{
-  color: white; 
+  color: white;
   display: inline-block;
 }
 
 /* Container for the phone number and fone icon */
 .flinks{
-  width: 95%; 
+  width: 95%;
   background-color: #355F36;
-  margin: 0 auto;  
-  border-radius: .2em; 
+  margin: 0 auto;
+  border-radius: .2em;
 }
 
 /* Positions the fone icon next to phone number*/
-#fone{  
+#fone{
   position: relative;
-  margin-right: 1em; 
+  margin-right: 1em;
   top:.3em;
 }
 
@@ -223,63 +227,63 @@ body {
 .split {
   width:48%;
   background-color: #355F36;
-  text-align: center;  
+  text-align: center;
   display: inline-block;
   margin-top: 1em;
-  border-radius: .2em; 
+  border-radius: .2em;
 }
 
 /* Container for each set of buttons in footer, this centers each set of btns*/
 .mrgn{
-  width: 95%; 
+  width: 95%;
   margin: 0 auto;
 }
 
-/* Positions the footer buttons to the right on mobile devices */ 
+/* Positions the footer buttons to the right on mobile devices */
 .mrght{
 float: right;
 }
 
-/* Postions the footer buttons to the left on mobile devices */ 
+/* Postions the footer buttons to the left on mobile devices */
 .mlft{
 float: left;
 }
 
 /* Primary container for footer in mobile devices */
 .mobilefooter{
-  width: 100%; 
+  width: 100%;
   display: inline-block;
 }
 
 /* Style subscription form width, padding, background, and position*/
 .emailfrm {
-  width:100%;      
+  width:100%;
   position: relative;
   overflow: hidden;
-  text-align: center; 
+  text-align: center;
 }
 
-/* Style for input boxes for the subscribe section*/ 
-.footer input { 
+/* Style for input boxes for the subscribe section*/
+.footer input {
   border-bottom: none;
   border-top: none;
   border-right: none;
   border-left: none;
-  border-radius: .2em; 
+  border-radius: .2em;
   font-size: 1.25em;
-  font-family: "helvetica neue", helvetica, verdana, "sans serif";    
-  color: #000000; 
+  font-family: "helvetica neue", helvetica, verdana, "sans serif";
+  color: #000000;
   font-weight: bold;
-  padding: .5em 0; 
-  padding-left: .5em; 
+  padding: .5em 0;
+  padding-left: .5em;
 
   }
 
 /* Alignment for input boxes*/
 .mdalign{
   display: block;
-  text-align: center; 
-  margin: 1em auto;   
+  text-align: center;
+  margin: 1em auto;
 }
 
 
@@ -288,23 +292,23 @@ float: left;
           width: 100%;
           height:auto;
           background-color: #B5D825;
-          overflow: hidden; 
-          text-align: center; 
+          overflow: hidden;
+          text-align: center;
        }
 
 /* Style for copy rights content below footer */
 .copyrights {
         width: 80%;
-        border-top: .5px solid #FFFFFF; 
-        margin: 0 auto; 
+        border-top: .5px solid #FFFFFF;
+        margin: 0 auto;
         margin-top: 2%;
       }
 
 #copyrights {
-         color: #FFFFFF; 
+         color: #FFFFFF;
          font-size: 75%;
-         font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
-         margin-top: 1em; 
+         font-family: "helvetica neue", helvetica, verdana, "sans serif";
+         margin-top: 1em;
         }
 
 /* Does not display image of person and imagelinks above it */
@@ -313,20 +317,20 @@ float: left;
 }
 
 .mobileinput {
-  width: 92.5%; 
+  width: 92.5%;
 }
 
 /* Decorations, margin, and border for subscribe button*/
 #submit {
-  color: #FFFFFF; 
-  background-color: #355F36;   
+  color: #FFFFFF;
+  background-color: #355F36;
   white-space: nowrap;
-  text-align: center; 
-  padding: .6em 0; 
-  font-size: 1.25em; 
+  text-align: center;
+  padding: .6em 0;
+  font-size: 1.25em;
   font-weight: bold;
   font-family: "helvetica neue", helvetica, verdana, "sans serif";
-  border-radius: .2em; 
+  border-radius: .2em;
   width: 95%;
 }
 
@@ -334,32 +338,32 @@ float: left;
 /* Font style for footer buttons on mobile device*/
 .ffont{
   font-size: 1.25em;
-  color: white; 
+  color: white;
   display: inline-block;
   text-align: center;
-  font-weight: bold; 
-  font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
+  font-weight: bold;
+  font-family: "helvetica neue", helvetica, verdana, "sans serif";
 }
 
 @media only screen and (min-width: 450px) {
 
 .primary-image-container{
-  height: 750px; 
-   
+  height: 750px;
+
 }
 
 .text-container{
-  top: 30%; 
+  top: 30%;
 }
 
 .marginal-position{
   top: 50%;
   left: 50%;
-  width: 70%; 
+  width: 70%;
 }
 
-.marginal-subline{ 
-  font-size: 35px; 
+.marginal-subline{
+  font-size: 35px;
 }
 
 
@@ -372,8 +376,8 @@ float: left;
 @media only screen and (min-width: 768px) {
 
 .desktopfooter {
-  display: inline; 
-  overflow: hidden; 
+  display: inline;
+  overflow: hidden;
 }
 .mobilefooter{
   display: none;
@@ -381,18 +385,18 @@ float: left;
 
 
 .primary-image-container{
-  height: 750px; 
-   
+  height: 750px;
+
 }
 
 .text-container{
-  top: 30%; 
+  top: 30%;
 }
 
 .marginal-position{
   top: 50%;
   left: 50%;
-  width: 70%; 
+  width: 70%;
 }
 
 
@@ -408,14 +412,14 @@ float: left;
 
 /* Alignment for input boxes*/
 .mdalign{
-  display: inline; 
-  margin-right: 2.5em;   
+  display: inline;
+  margin-right: 2.5em;
 }
        /* Style for footer table width, margin, and aligning text left */
 table {
   border-collapse: collapse;
-  width: 100%;   
-  text-align: left; 
+  width: 100%;
+  text-align: left;
   margin-top: 1.5em;
   margin-left: 10%;
 }
@@ -423,20 +427,20 @@ table {
 /* Style for aliging table content, font size and color */
 th, td {
   padding: 8px;
-  text-align: left; 
+  text-align: left;
   margin: 0 auto;
-  font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
-  color: #FFFFFF; 
+  font-family: "helvetica neue", helvetica, verdana, "sans serif";
+  color: #FFFFFF;
 }
 
 /* Displays the text in white for footer links on desktop*/
 td a {
-    text-decoration: none; 
-    color: #FFFFFF; 
+    text-decoration: none;
+    color: #FFFFFF;
   }
 
 /* Displays the head elements in the footer in dark green */
-th a { 
+th a {
 text-decoration: none;
 color: #355F36;
 }
@@ -445,8 +449,8 @@ color: #355F36;
 td a:hover {
     color:#355F36;}
 
-/* On hover turns the green text to white in the footer*/ 
-th a:hover { 
+/* On hover turns the green text to white in the footer*/
+th a:hover {
  color: #FFFFFF;}
   }
 
@@ -460,7 +464,7 @@ th a:hover {
 .package{
   display: block;
   float: right;
-  margin-right: 1.5em; 
+  margin-right: 1.5em;
 }
 
 
@@ -469,35 +473,35 @@ th a:hover {
     top: 0%; /* 25% from the top */
     width: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
-    margin-top: 50px; /* 30px top margin to avoid conflict with the close button on smaller screens */ 
+    margin-top: 50px; /* 30px top margin to avoid conflict with the close button on smaller screens */
 
 }
 
-.package a{ 
-  text-decoration: none; 
-  font-size: 16px;  
-  font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
-  font-weight: 200; 
-  color: #fff;  
-  background-color: #333; 
-  padding: .5em; 
+.package a{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "helvetica neue", helvetica, verdana, "sans serif";
+  font-weight: 200;
+  color: #fff;
+  background-color: #333;
+  padding: .5em;
   border-radius: 4px 4px 4px 4px;
   padding-right: 1em;
-  padding-left: 1em;  
+  padding-left: 1em;
 }
 
-.package #home{ 
-  border-radius: 25px 4px 4px 25px; 
+.package #home{
+  border-radius: 25px 4px 4px 25px;
 }
 
-.package #donate{ 
-  border-radius: 4px 25px 25px 4px; 
+.package #donate{
+  border-radius: 4px 25px 25px 4px;
   background-color: #333;
-  font-weight: 200; 
+  font-weight: 200;
 }
 
 .package a:hover, .package #donate:hover{
-  background-color: #B5D825; 
+  background-color: #B5D825;
    transition: 0.4s; /* Transition effects on hover (color) */
 }
 
@@ -507,38 +511,32 @@ th a:hover {
 }
 
 .primary-image-container{
-  height: 750px; 
-   
+  height: 750px;
+
 }
 
 .text-container{
-  top: 30%; 
+  top: 30%;
 }
 
 .headline{
-  font-size: 2.5em; 
-  margin-bottom: .25em; 
+  font-size: 2.5em;
+  margin-bottom: .25em;
 }
 
-.subline{ 
-  font-size: 30px; 
+.subline{
+  font-size: 30px;
 }
 
 .marginal-position{
   top: 50%;
   left: 50%;
-  width: 70%; 
+  width: 70%;
 }
 
-.marginal-subline{ 
-  font-size: 35px; 
-}
-
-
+.marginal-subline{
+  font-size: 35px;
 }
 
 
-
-
-
-
+}

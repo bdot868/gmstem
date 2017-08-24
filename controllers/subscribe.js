@@ -15,7 +15,11 @@ const
       console.log(newSubscriber)
       newSubscriber.save((err, newSubscriber) => {
         if(err){
-          console.log(err)
+          console.log(err.code)
+          if(err.code){
+            res.json({message: "You are already subscribed."})
+          }
+
         } else {
           console.log({success: true, message: "Successfully subscribed!!!"})
             res.redirect('/')

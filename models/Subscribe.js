@@ -1,7 +1,7 @@
 const
   mongoose = require('mongoose'),
   newsletterSchema = new mongoose.Schema({
-      email: String
+      email: { type: String, unique: true, required: true, uniqueCaseInsensitive: true }
   })
 
   module.exports = mongoose.model('Newsletter', newsletterSchema)

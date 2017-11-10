@@ -2,27 +2,27 @@
 
 .primary-image-container{
   position: relative;
-  width: 100%; 
-  height: 750px; 
+  width: 100%;
+  height: 750px;
   background: -webkit-linear-gradient(top, #000, #ABB2B9);
   background: linear-gradient(to bottom, #000, #ABB2B9);
-   
+
 }
 
 .image1{
   position: absolute;
-  width: 250px; 
+  width: 250px;
   left: 0;
   bottom: 0;
-  right: 0; 
+  right: 0;
   margin: auto;
 }
 
 
 
 .ctnr{
-  margin: 0 auto; 
-  width: 90%; 
+  margin: 0 auto;
+  width: 90%;
   display: block;
   font-family: "helvetica neue", helvetica, verdana, "sans serif";
 }
@@ -55,31 +55,31 @@
 
 /* Size of the text for text overlay on primary image*/
 #headtxt{
-  font-size: 32px; 
+  font-size: 32px;
 }
 
 /* Text properties for subtext in primary image */
 #spantxt{
-  font-size: 12px; 
-  color: #B5D825; 
+  font-size: 12px;
+  color: #B5D825;
 }
 
 #hdlbl {
   color: #355F36;
-  text-align: center; 
-  margin: 2em auto; 
+  text-align: center;
+  margin: 2em auto;
 }
 
-.text { 
-  font-family: "helvetica neue", helvetica, verdana, "sans serif"; 
-  text-align: left;  
+.text {
+  font-family: "helvetica neue", helvetica, verdana, "sans serif";
+  text-align: left;
   font-size: 20px;
   line-height: 150%;
   color: #000000;
-  width: 90%; 
+  width: 90%;
   margin: 0 auto;
-  font-weight: 200; 
-} 
+  font-weight: 200;
+}
 
 /* Margin for the quotes between primary image and video*/
 .txtctnr {
@@ -89,34 +89,34 @@
   overflow: hidden;
 }
 
-/* "Great Minds" display in green in scndquote */ 
+/* "Great Minds" display in green in scndquote */
 .gm {
   color: #B5D825;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 .ss{
-  color: #355F36; 
+  color: #355F36;
 }
 
 h2 {
-  color: #B5D825; 
+  color: #B5D825;
   margin: 2em auto;
 }
 
 h3 {
-  color: #355F36; 
+  color: #355F36;
 }
 
-.form-control { 
-  width: 95%; 
+.form-control {
+  width: 95%;
   border: 1px solid gray;
-  border-radius: .2em; 
+  border-radius: .2em;
   font-size: 1.25em;
-  font-family: "helvetica neue", helvetica, verdana, "sans serif";    
+  font-family: "helvetica neue", helvetica, verdana, "sans serif";
   font-weight: bold;
-  padding: .5em 0; 
-  padding-left: .5em; 
+  padding: .5em 0;
+  padding-left: .5em;
   }
 
 .ng-valid[required], .ng-valid.required  {
@@ -130,21 +130,21 @@ h3 {
 
 /* Decorations, margin, and border for subscribe button*/
 #btnn {
-  color: #FFFFFF; 
-  background-color: #2982D5;  
+  color: #FFFFFF;
+  background-color: #2982D5;
   white-space: nowrap;
-  text-align: center; 
-  padding: .6em 0; 
-  font-size: 1.25em; 
+  text-align: center;
+  padding: .6em 0;
+  font-size: 1.25em;
   font-weight: bold;
   font-family: "helvetica neue", helvetica, verdana, "sans serif";
-  border-radius: .2em; 
+  border-radius: .2em;
   width: 95%;
-  margin-top: 4em; 
+  margin-top: 4em;
   margin-bottom: 4em;
 }
 
-#btnn:hover { 
+#btnn:hover {
   opacity: .7;
   transition: 0.3s ease-in-out;
 }
@@ -152,60 +152,60 @@ h3 {
 /* Alignment for donate button*/
 .mdln{
   display: block;
-  text-align: center; 
-  margin: 1em auto;   
+  text-align: center;
+  margin: 1em auto;
 }
 
 /* This style is for desktops with an min width of 550px */
 @media only screen and (min-width: 550px) {
 /* Size of the text for overlay on primary image */
 #headtxt{
-  font-size: 45px; 
+  font-size: 45px;
 }
 
 /* Control the text under headtxt */
 #spantxt{
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 .text{
-  font-size: 1.25em; 
+  font-size: 1.25em;
 }
 
 #btnn {
   width: 50%;
 }
 
-} 
+}
 
 @media only screen and (min-width: 800px) {
 
 /* Size of the text for overlay on primary image */
 #headtxt{
-  font-size: 70px; 
+  font-size: 70px;
 }
 
 /* Control the text under headtxt */
 #spantxt{
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 /* Text styling and paragraph alignment for quote*/
-.text { 
-  text-align: left;  
+.text {
+  text-align: left;
   font-size: 200%;
   font-weight: 200;
   color: #000000;
-  width: 80%; 
+  width: 80%;
   margin: 0 auto;
-      } 
+      }
 
 /* Takes out top spacing and margins for secondary quote */
 .txtctnr {
   width: 100%;
   margin: 10em auto;
   display: block;
-  margin-bottom: 3em; 
+  margin-bottom: 3em;
 }
 
 
@@ -215,7 +215,7 @@ h3 {
 }
 
 .aso{
-width: 100%; 
+width: 100%;
 display: inline-block;
 background-color: ;
 }
@@ -234,8 +234,91 @@ width: 45%;
 }
 
 .overlayer{
-  height: 99.3%; 
+  height: 99.3%;
   overflow: hidden;
 }
 
+.hosted-field {
+  height: 50px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  display: inline-block;
+  box-shadow: none;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #dddddd;
+  line-height: 20px;
+  background: #fcfcfc;
+  margin-bottom: 12px;
+  background: linear-gradient(to right, white 50%, #fcfcfc 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 300ms ease-in-out;
+}
 
+.hosted-fields--label {
+  font-family: courier, monospace;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.button-container {
+  display: block;
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  font-weight: 500;
+  line-height: inherit;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+}
+
+.button--small {
+  padding: 10px 20px;
+  font-size: 0.875rem;
+}
+
+.button--green {
+  outline: none;
+  background-color: #64d18a;
+  border-color: #64d18a;
+  color: white;
+  transition: all 200ms ease;
+}
+
+.button--green:hover {
+  background-color: #8bdda8;
+  color: white;
+}
+
+.braintree-hosted-fields-focused {
+  border: 1px solid #64d18a;
+  border-radius: 1px;
+  background-position: left bottom;
+}
+
+.braintree-hosted-fields-invalid {
+  border: 1px solid #ed574a;
+}
+
+.braintree-hosted-fields-valid {
+}
+
+#cardForm {
+  max-width: 50.75em;
+  margin: 0 auto;
+  padding: 1.875em;
+}
